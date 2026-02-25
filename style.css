@@ -1,0 +1,37 @@
+.squares {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+  width: 11rem;
+  height: 11rem;
+}
+
+.square {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+button:hover {
+  outline: 2px solid orange;
+}
+
+body {
+  background: #333;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+button[type="reset"] {
+  width: 11rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: .5rem;
+  font-size: 1.5rem;
+}
+
+.msg {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
